@@ -1,7 +1,7 @@
 {
     "title" : "Batterien wechseln",
-    "uri" : "https://raw.githubusercontent.com/rein-zieh/OpenTaskInstructionsExamples/main/steps/",
-    "image" : "https://raw.githubusercontent.com/rein-zieh/OpenTaskInstructionsExamples/main/steps/batterienwechseln.jpg",
+    "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/index.json",
+    "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/batterienwechseln.jpg",
     "alt" : "Eine Fernbedienung",
     "text" : "Hier wird beschrieben, wie du die Batterien in deiner Fernbedienung wechselst.",
     "meta": {
@@ -36,35 +36,35 @@
             "id" : "oeffnen",
             "title" : "Öffnen der Fernbedienung",
             "text" : "Öffne die Abdeckung auf der Rückseite der Fernbedienung. Schiebe die Abdeckung dabei nach unten",
-            "image" : "https://raw.githubusercontent.com/rein-zieh/OpenTaskInstructionsExamples/main/steps/oeffnen.jpg"
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/oeffnen.jpg"
         },
         {
             "type" : "step",
             "id" : "entnehmen",
             "title" : "Entnehmen der alten Batterien",
             "text" : "Entnehme vorsichtig die Batterien",
-            "image" : "https://raw.githubusercontent.com/rein-zieh/OpenTaskInstructionsExamples/main/steps/entnehmen.jpg"
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/entnehmen.jpg"
         },
         {
             "type" : "step",
             "id" : "einsetzen",
             "title" : "Einsetzen der neuen Batterien",
             "text" : "Setze die neuen Batterien in die Fernbedienung. Achte darauf, dass die Batterien richtig herum eingelegt werden. Das Symbol in der Fernbedienung zeigt dir die Richtung, Achte darauf, dass die Pluspole übereinander liegen",
-            "image" : "https://raw.githubusercontent.com/rein-zieh/OpenTaskInstructionsExamples/main/steps/eninlegen.jpg"
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/eninlegen.jpg"
         },
         {
             "type" : "step",
             "id" : "schliessen",
             "title" : "Schließen der Fernbedienung",
             "text" : "Schließe die Abdeckung der Fernbedienung wieder. Schiebe diesmal die Abdeckung dabei nach oben.",
-            "image" : "https://raw.githubusercontent.com/rein-zieh/OpenTaskInstructionsExamples/main/steps/schliessen.jpg"
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/schliessen.jpg"
         },
         {
             "type" : "step",
             "id" : "entsorgen",
             "title" : "Entsorgung der Batterien",
             "text" : "Die alten Batterien dürfen nicht weggeschmissen werden. Lege die alten Batterien in die grüne Kiste zu den anderen Altbatterien",
-            "image" : "https://raw.githubusercontent.com/rein-zieh/OpenTaskInstructionsExamples/main/steps/entsorgen.jpg"
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/entsorgen.jpg"
         }
     ]
 }
