@@ -3,14 +3,14 @@
     "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/index.json",
     "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/fernbedienung.jpg",
     "alt" : "Eine Fernbedienung",
-    "text" : "Hier wird beschrieben, wie du die Batterien in deiner Fernbedienung wechselst.",
+    "text" : "Hier wird beschrieben, wie du die Batterien in deiner Fernbedienung wechseln kannst.",
     "meta": {
         "author" : {
             "name": "Frank Reins",
             "organisation": "KBV",
             "email": "fr@kb-esv.de"
         },
-        "description" : "Das wechseln von Batterieren einer Fernbedienung",
+        "description" : "Das Wechseln von Batterien einer Fernbedienung",
         "keywords" : [
             "Fernbedienung",
             "Batteriewechsel"
@@ -41,8 +41,8 @@
         {
             "type" : "step",
             "id" : "entnehmen",
-            "title" : "Entnehmen der alten Batterien",
-            "text" : "Entnehme vorsichtig die Batterien",
+            "title" : "Entnehmen der Batterien",
+            "text" : "Entnehme vorsichtig die leeren Batterien",
             "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/entnehmen.jpg"
         },
         {
