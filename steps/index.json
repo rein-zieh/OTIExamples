@@ -39,7 +39,7 @@
             "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/oeffnen.jpg"
         },
         {
-            
+            "type" : "step",
             "id" : "entnehmen",
             "title" : "Entnehmen der Batterien",
             "text" : "Entnehme vorsichtig die leeren Batterien",
