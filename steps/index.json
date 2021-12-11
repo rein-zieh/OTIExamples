@@ -50,7 +50,7 @@
             "id" : "einsetzen",
             "title" : "Einsetzen der neuen Batterien",
             "text" : "Setze die neuen Batterien in die Fernbedienung. Achte darauf, dass die Batterien richtig herum eingelegt werden. Das Symbol in der Fernbedienung zeigt dir die Richtung, Achte darauf, dass die Pluspole übereinander liegen",
-            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/eninlegen.jpg"
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/einsetzen.jpg"
         },
         {
             "type" : "step",
