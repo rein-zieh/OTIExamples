@@ -47,7 +47,7 @@
             "title" : "Wie schwer ist dein Paket?",
             "text" : "Wie schwer ist dein Paket? Wiegt es unter 2 Kg bzw. 2000g?",
             "else-text": "Nein, es ist schwerer!",
-            "if" : [
+            "then" : [
                 {
                     "type" : "step",
                     "id" : "dhl",
