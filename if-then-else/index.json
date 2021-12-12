@@ -31,7 +31,7 @@
     "steps" : [
         {
             "type" : "step",
-            "id" : "verschließen",
+            "id" : "verschliessen",
             "title" : "Verschließe dein Paket",
             "text" : "Verschließe dein Paket mit einem Klebeband."
         },
@@ -56,13 +56,13 @@
                 },
                 {
                     "type" : "step",
-                    "id" : "dhl-ausfuellen",
+                    "id" : "dhl_ausfuellen",
                     "title" : "Aufkleber ausfüllen",
                     "text" : "Fülle den DHL-Päckchen-Aufkleber aus."
                 },
                 {
                     "type" : "step",
-                    "id" : "dhl-aufkleben",
+                    "id" : "dhl_aufkleben",
                     "title" : "Aufkleber aufkleben",
                     "text" : "Klebe den DHL-Päckchen-Aufkleber auf das Paket."
                 }
@@ -76,13 +76,13 @@
                 },
                 {
                     "type" : "step",
-                    "id" : "hermes-ausfuellen",
+                    "id" : "hermes_ausfuellen",
                     "title" : "Aufkleber ausfüllen",
                     "text" : "Fülle den Hermes-Paket-Aufkleber aus."
                 },
                 {
                     "type" : "step",
-                    "id" : "hermes-aufkleben",
+                    "id" : "hermes_aufkleben",
                     "title" : "Aufkleber aufkleben",
                     "text" : "Klebe den Hermes-Paket-Aufkleber auf das Paket."
                 }
