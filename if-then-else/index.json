@@ -29,7 +29,7 @@
             "audio"
         ]
     },
-    "steps": [
+    "steps" : [
         {
             "type" : "step",
             "id" : "verschließen",
@@ -48,47 +48,46 @@
             "title" : "Wie schwer ist dein Paket?",
             "text" : "Wie schwer ist dein Paket? Wiegt es unter 2 Kg bzw. 2000g?",
             "else-text": "Nein, es ist schwerer!",
-            "if": [
-              {
-                  "type" : "step",
-                  "id" : "dhl",
-                  "title" : "DHL-Päckchen",
-                  "text" : "Nimm einen gelben DHL-Päckchen-Aufkleber"
-              },
-              {
-                  "type" : "step",
-                  "id" : "dhl-ausfuellen",
-                  "title" : "Aufkleber ausfüllen",
-                  "text" : "Fülle den DHL-Päckchen-Aufkleber aus."
-              },
-              {
-                  "type" : "step",
-                  "id" : "dhl-aufkleben",
-                  "title" : "Aufkleber aufkleben",
-                  "text" : "Klebe den DHL-Päckchen-Aufkleber auf das Paket."
-              }
+            "if" : [
+                {
+                    "type" : "step",
+                    "id" : "dhl",
+                    "title" : "DHL-Päckchen",
+                    "text" : "Nimm einen gelben DHL-Päckchen-Aufkleber"
+                },
+                {
+                    "type" : "step",
+                    "id" : "dhl-ausfuellen",
+                    "title" : "Aufkleber ausfüllen",
+                    "text" : "Fülle den DHL-Päckchen-Aufkleber aus."
+                },
+                {
+                    "type" : "step",
+                    "id" : "dhl-aufkleben",
+                    "title" : "Aufkleber aufkleben",
+                    "text" : "Klebe den DHL-Päckchen-Aufkleber auf das Paket."
+                }
             ],
-            "else": [
-              {
-                  "type" : "step",
-                  "id" : "hermes",
-                  "title" : "Hermes-Paket",
-                  "text" : "Nimm einen blauen Hermes-Paket-Aufkleber"
-              },
-              {
-                  "type" : "step",
-                  "id" : "hermes-ausfuellen",
-                  "title" : "Aufkleber ausfüllen",
-                  "text" : "Fülle den Hermes-Paket-Aufkleber aus."
-              },
-              {
-                  "type" : "step",
-                  "id" : "hermes-aufkleben",
-                  "title" : "Aufkleber aufkleben",
-                  "text" : "Klebe den Hermes-Paket-Aufkleber auf das Paket."
-              }
-            ],
-            
+            "else" : [
+                {
+                    "type" : "step",
+                    "id" : "hermes",
+                    "title" : "Hermes-Paket",
+                    "text" : "Nimm einen blauen Hermes-Paket-Aufkleber"
+                },
+                {
+                    "type" : "step",
+                    "id" : "hermes-ausfuellen",
+                    "title" : "Aufkleber ausfüllen",
+                    "text" : "Fülle den Hermes-Paket-Aufkleber aus."
+                },
+                {
+                    "type" : "step",
+                    "id" : "hermes-aufkleben",
+                    "title" : "Aufkleber aufkleben",
+                    "text" : "Klebe den Hermes-Paket-Aufkleber auf das Paket."
+                }
+            ]
         },
         {
             "type" : "step",
