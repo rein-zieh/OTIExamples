@@ -1,0 +1,100 @@
+{
+    "title" : "Paket oder Päckchenversenden",
+    "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/if-then-else/index.json",
+    "image" : "",
+    "alt" : "",
+    "text" : "Hier wird beschrieben, wie du ein Paket oder ein Päckchen versendest.",
+    "meta": {
+        "author" : {
+            "name": "Frank Reins",
+            "organisation": "Rein-Zieh.de",
+            "email": "oti@rein-zieh.de"
+        },
+        "description" : "Versendet eines Päckchens mit DHL oder eines Pakets mit Hermes",
+        "keywords" : [
+            "Paket",
+            "Päckchen"
+        ],
+        "license" : "CC BY-SA",
+        "supported-media" : [
+            "text"
+        ]
+    },
+    "proposals" : {
+        "color" : "#c00000",
+        "schema": "light",
+        "logo": "https://oti.rein-zieh.de/logo.png",
+        "media": [
+            "image", 
+            "audio"
+        ]
+    },
+    "steps": [
+        {
+            "type" : "step",
+            "id" : "verschließen",
+            "title" : "Verschließe dein Paket",
+            "text" : "Verschließe dein Paket mit einem Klebeband."
+        },
+        {
+            "type" : "step",
+            "id" : "wiegen",
+            "title" : "Wiege dein Paket",
+            "text" : "Stelle dein Paket auf die Wage und lies das Gewicht ab."
+        },
+        {
+            "type" : "if-then-else",
+            "id" : "entscheiden",
+            "title" : "Wie schwer ist dein Paket?",
+            "text" : "Wie schwer ist dein Paket? Wiegt es unter 2 Kg bzw. 2000g?",
+            "else-text": "Nein, es ist schwerer!",
+            "if": [
+              {
+                  "type" : "step",
+                  "id" : "dhl",
+                  "title" : "DHL-Päckchen",
+                  "text" : "Nimm einen gelben DHL-Päckchen-Aufkleber"
+              },
+              {
+                  "type" : "step",
+                  "id" : "dhl-ausfuellen",
+                  "title" : "Aufkleber ausfüllen",
+                  "text" : "Fülle den DHL-Päckchen-Aufkleber aus."
+              },
+              {
+                  "type" : "step",
+                  "id" : "dhl-aufkleben",
+                  "title" : "Aufkleber aufkleben",
+                  "text" : "Klebe den DHL-Päckchen-Aufkleber auf das Paket."
+              }
+            ],
+            "else": [
+              {
+                  "type" : "step",
+                  "id" : "hermes",
+                  "title" : "Hermes-Paket",
+                  "text" : "Nimm einen blauen Hermes-Paket-Aufkleber"
+              },
+              {
+                  "type" : "step",
+                  "id" : "hermes-ausfuellen",
+                  "title" : "Aufkleber ausfüllen",
+                  "text" : "Fülle den Hermes-Paket-Aufkleber aus."
+              },
+              {
+                  "type" : "step",
+                  "id" : "hermes-aufkleben",
+                  "title" : "Aufkleber aufkleben",
+                  "text" : "Klebe den Hermes-Paket-Aufkleber auf das Paket."
+              }
+            ],
+            
+        },
+        {
+            "type" : "step",
+            "id" : "paketwagen",
+            "title" : "Paketwahen",
+            "text" : "Lege das Paket auf den Paketwagen. Du bist fertig."
+        }
+    ]
+}
