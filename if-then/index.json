@@ -1,6 +1,6 @@
 {
     "title" : "Paket oder Päckchenversenden",
-    "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/if-then-else/index.json",
+    "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/if-then/index.json",
     "image" : "",
     "alt" : "",
     "text" : "Hier wird beschrieben, wie du ein Paket versendest.",
@@ -45,7 +45,7 @@
             "type" : "if-then-else",
             "id" : "entscheiden",
             "title" : "Wie schwer ist dein Paket?",
-            "text" : "Wie schwer ist dein Paket? Wiegt es unter 2 Kg bzw. 2000g?",
+            "text" : "Wie schwer ist dein Paket? Wiegt es unter 2 Kg bzw. 2000g? <br> Achtung! Hier wurde der Else-Fall vergessen",
             "else_text": "Nein, es ist schwerer!",
             "then" : [
                 {
