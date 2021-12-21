@@ -1,5 +1,5 @@
 {
-    "title" : "Paket oder Päckchenversenden",
+    "title" : "Paket oder Päckchen versenden",
     "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/if-then-else/index.json",
     "image" : "",
     "alt" : "",
@@ -10,7 +10,7 @@
             "organisation": "Rein-Zieh.de",
             "email": "oti@rein-zieh.de"
         },
-        "description" : "Versendet eines Päckchens mit DHL oder eines Pakets mit Hermes",
+        "description" : "Versenden eines Päckchens mit DHL oder eines Pakets mit Hermes",
         "keywords" : [
             "Paket",
             "Päckchen"
@@ -92,7 +92,7 @@
             "type" : "step",
             "id" : "paketwagen",
             "title" : "Paketwagen",
-            "text" : "Lege das Paket auf den Paketwagen. Du bist fertig."
+            "text" : "Lege das Paket auf den Paketwagen."
         }
     ]
 }
