@@ -1,5 +1,5 @@
 {
-    "title" : "Schritt mit Timer",
+    "title" : "Teigkneten mit Timer",
     "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-timer/index.json",
     "text" : "Hier wird ein Schritt mit einem Timer ausprobiert",
     "meta": {
@@ -46,7 +46,8 @@
         },
         {
             "type" : "step-timer",
-            "id" : "ruehren",
+            "id" : "schnellruehren",
+            "timer" : "0h1m12s"
             "title" : "Rühren",
             "text" : "4 Minuten mit dem Knethaken durchkneten"
         },
