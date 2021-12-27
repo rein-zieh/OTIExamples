@@ -47,7 +47,7 @@
         {
             "type" : "step-timer",
             "id" : "schnellruehren",
-            "timer" : "0h1m12s"
+            "timer" : "0h1m12s",
             "title" : "Rühren",
             "text" : "4 Minuten mit dem Knethaken durchkneten"
         },
