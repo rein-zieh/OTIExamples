@@ -1,0 +1,60 @@
+{
+    "title" : "Schritt mit Timer",
+    "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-timer/index.json",
+    "text" : "Hier wird ein Schritt mit einem Timer ausprobiert",
+    "meta": {
+        "author" : {
+            "name": "Frank Reins",
+            "organisation": "KBV",
+            "email": "fr@kb-esv.de"
+        },
+        "description" : "Schritt mit Timer",
+        "keywords" : [
+            "Timer"
+        ],
+        "license" : "CC BY-SA",
+        "supported-media" : [
+            "text"
+        ]
+    },
+    "proposals" : {
+        "color" : "#c00000",
+        "schema": "light",
+        "logo": "https://oti.kb-esv.de/logo.png",
+        "media": [
+            "text"
+        ]
+    },
+    "steps": [
+        {
+            "type" : "step",
+            "id" : "wasser",
+            "title" : "Wasser",
+            "text" : "Wasser in eine Schüssel geben"
+        },
+        {
+            "type" : "step",
+            "id" : "mehl",
+            "title" : "Mehl",
+            "text" : "Mehl in die Schüssel geben"
+        },
+        {
+            "type" : "step",
+            "id" : "eier",
+            "title" : "Eier",
+            "text" : "2 Eier in die Schüssel geben"
+        },
+        {
+            "type" : "step-timer",
+            "id" : "ruehren",
+            "title" : "Rühren",
+            "text" : "4 Minuten mit dem Knethaken durchkneten"
+        },
+        {
+            "type" : "step",
+            "id" : "form",
+            "title" : "Form",
+            "text" : "Teig in eine Form geben"
+        },
+    ]
+}
