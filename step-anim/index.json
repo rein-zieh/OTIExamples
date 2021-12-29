@@ -1,0 +1,57 @@
+{
+    "title" : "Steps mit Animation",
+    "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/index.json",
+    "text" : "Hier wird eine Schritt mit einer Animation von mehreren Jpeg-Dateien getestet.",
+    "meta": {
+        "author" : {
+            "name": "Frank Reins",
+            "organisation": "KBV",
+            "email": "fr@kb-esv.de"
+        },
+        "description" : "Lorem Ipsum",
+        "keywords" : [
+            "keyword1"
+        ],
+        "license" : "CC BY-SA",
+        "supported-media" : [
+            "text",
+            "image"
+        ]
+    },
+    "proposals" : {
+        "color" : "#c00000",
+        "schema": "light",
+        "logo": "https://oti.kb-esv.de/logo.png",
+        "media": [
+            "image", 
+            "audio"
+        ]
+    },
+    "steps": [
+        {
+            "type" : "step",
+            "id" : "step-a",
+            "title" : "Schritt A",
+            "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/a.jpg"
+        },
+        {
+            "type" : "step",
+            "id" : "step-b",
+            "title" : "Schritt B",
+            "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+            "images" : [
+              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/b1.jpg",
+              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/b2.jpg",
+              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/b3.jpg"
+            ]
+        },
+        {
+            "type" : "step",
+            "id" : "step-c",
+            "title" : "Schritt C",
+            "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/c.jpg"
+        }
+    ]
+}
