@@ -33,7 +33,7 @@
             "id" : "step-a",
             "title" : "Schritt A",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/a.jpg"
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/a.png"
         },
         {
             "type" : "step",
@@ -41,9 +41,9 @@
             "title" : "Schritt B",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
             "images" : [
-              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/b1.jpg",
-              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/b2.jpg",
-              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/b3.jpg"
+              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/b1.png",
+              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/b2.png",
+              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/b3.png"
             ]
         },
         {
@@ -51,7 +51,7 @@
             "id" : "step-c",
             "title" : "Schritt C",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/c.jpg"
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/steps/c.png"
         }
     ]
 }
