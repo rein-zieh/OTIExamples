@@ -45,7 +45,7 @@
             "text" : "2 Eier in die Schüssel geben"
         },
         {
-            "type" : "step-timer",
+            "type" : "step",
             "id" : "schnellruehren",
             "timer" : "0h1m12s",
             "title" : "Rühren",
