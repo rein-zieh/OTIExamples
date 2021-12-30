@@ -30,31 +30,29 @@
             "type" : "step",
             "id" : "wasser",
             "title" : "Wasser",
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/a.png"
             "text" : "Wasser in eine Schüssel geben"
         },
         {
             "type" : "step",
             "id" : "mehl",
             "title" : "Mehl",
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b.png"
             "text" : "Mehl in die Schüssel geben"
-        },
-        {
-            "type" : "step",
-            "id" : "eier",
-            "title" : "Eier",
-            "text" : "2 Eier in die Schüssel geben"
         },
         {
             "type" : "step",
             "id" : "schnellruehren",
             "countdown" : "0h1m12s",
             "title" : "Rühren",
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/c.png"
             "text" : "4 Minuten mit dem Knethaken durchkneten"
         },
         {
             "type" : "step",
             "id" : "form",
             "title" : "Form",
+            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/d.png"
             "text" : "Teig in eine Form geben"
         }
     ]
