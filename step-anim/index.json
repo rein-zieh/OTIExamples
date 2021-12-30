@@ -40,12 +40,14 @@
             "id" : "step-b",
             "title" : "Schritt B",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-            "interval" : 1500,
-            "images": [
-              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b1.png",
-              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b2.png",
-              "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b3.png"
-            ]
+            "animation" : {
+                "interval" : 750,
+                "images": [
+                  "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b1.png",
+                  "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b2.png",
+                  "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b3.png"
+                ]
+            }
         },
         {
             "type" : "step",
