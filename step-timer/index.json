@@ -41,7 +41,7 @@
             "text" : "Mehl in die Schüssel geben"
         },
         {
-            "type" : "step",
+            "type" : "step-timer",
             "id" : "schnellruehren",
             "countdown" : "0h1m12s",
             "title" : "Rühren",
