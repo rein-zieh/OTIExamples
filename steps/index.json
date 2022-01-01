@@ -21,7 +21,7 @@
             "image"
         ]
     },
-    "proposals" : {
+    "preferences" : {
         "color" : "#c00000",
         "schema": "light",
         "logo": "https://oti.kb-esv.de/logo.png",
