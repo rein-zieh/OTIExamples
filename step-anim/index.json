@@ -36,7 +36,7 @@
             "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/a.png"
         },
         {
-            "type" : "step",
+            "type" : "step-animation",
             "id" : "step-b",
             "title" : "Schritt B",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
