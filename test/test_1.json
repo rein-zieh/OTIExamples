@@ -37,11 +37,11 @@
             "text" : "Dies ist der erste Testschritt: Ein normaler Schritt",
             "image" : "https://rein-zieh.github.io/otiExamples/test/a.png"
         },
-{
+        {
             "type" : "if-then-else",
             "id" : "stebb",
             "title" : "If-Then-Else",
-            "image" : "https://rein-zieh.github.io/otiExamples/test/b.png"
+            "image" : "https://rein-zieh.github.io/otiExamples/test/b.png",
             "text" : "Mit einer „Animation“ oder lieber mit einem „Timer-Schritt“ fortfahren?",
             "then_text": "ja, mit der Animation",
             "else_text": "nein, mit dem Timer",
@@ -50,7 +50,7 @@
                     "type" : "step-animation",
                     "id" : "stepb1",
                     "title" : "Animation",
-                    "text" : "Dies sind 3 Bilder."
+                    "text" : "Dies sind 3 Bilder.",
                     "interval" : 750,
                     "animation" : [
                         "https://rein-zieh.github.io/otiExamples/test/b1.png",
@@ -64,7 +64,7 @@
                     "type" : "if-then-else",
                     "id" : "stebc",
                     "title" : "nochmal If-Then-Else",
-                    "image" : "https://rein-zieh.github.io/otiExamples/test/c.png"
+                    "image" : "https://rein-zieh.github.io/otiExamples/test/c.png",
                     "text" : "Echt mit Timer?",
                     "then" : [
                         {
