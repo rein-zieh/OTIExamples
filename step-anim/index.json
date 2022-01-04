@@ -1,6 +1,6 @@
 {
     "title" : "Steps mit Animation",
-    "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/index.json",
+    "uri" : "https://rein-zieh.github.io/otiExamples/step-anim/index.json",
     "text" : "Hier wird eine Schritt mit einer Animation von mehreren Jpeg-Dateien getestet.",
     "meta": {
         "author" : {
@@ -33,7 +33,7 @@
             "id" : "step-a",
             "title" : "Schritt A",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/a.png"
+            "image" : "https://rein-zieh.github.io/otiExamples/step-anim/a.png"
         },
         {
             "type" : "step-animation",
@@ -42,9 +42,9 @@
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
             "interval" : 750,
             "animation" : [
-                "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b1.png",
-                "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b2.png",
-                "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/b3.png"
+                "https://rein-zieh.github.io/otiExamples/step-anim/b1.png",
+                "https://rein-zieh.github.io/otiExamples/step-anim/b2.png",
+                "https://rein-zieh.github.io/otiExamples/step-anim/b3.png"
             ]
         },
         {
@@ -52,7 +52,7 @@
             "id" : "step-c",
             "title" : "Schritt C",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-anim/c.png"
+            "image" : "https://rein-zieh.github.io/otiExamples/step-anim/c.png"
         }
     ]
 }
