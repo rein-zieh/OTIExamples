@@ -1,6 +1,6 @@
 {
     "title" : "Teigkneten mit Timer",
-    "uri" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-timer/index.json",
+    "uri" : "https://rein-zieh.github.io/otiExamples/step-timer/index.json",
     "text" : "Hier wird ein Schritt mit einem Timer ausprobiert",
     "meta": {
         "author" : {
@@ -30,14 +30,14 @@
             "type" : "step",
             "id" : "wasser",
             "title" : "Wasser",
-            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-timer/a.png",
+            "image" : "https://rein-zieh.github.io/otiExamples/step-timer/a.png",
             "text" : "Wasser in eine Schüssel geben"
         },
         {
             "type" : "step",
             "id" : "mehl",
             "title" : "Mehl",
-            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-timer/b.png",
+            "image" : "https://rein-zieh.github.io/otiExamples/step-timer/b.png",
             "text" : "Mehl in die Schüssel geben"
         },
         {
@@ -45,14 +45,14 @@
             "id" : "schnellruehren",
             "countdown" : "0h1m12s",
             "title" : "Rühren",
-            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-timer/c.png",
+            "image" : "https://rein-zieh.github.io/otiExamples/step-timer/c.png",
             "text" : "4 Minuten mit dem Knethaken durchkneten"
         },
         {
             "type" : "step",
             "id" : "form",
             "title" : "Form",
-            "image" : "https://rein-zieh.github.io/OpenTaskInstructionsExamples/step-timer/d.png",
+            "image" : "https://rein-zieh.github.io/otiExamples/step-timer/d.png",
             "text" : "Teig in eine Form geben"
         }
     ]
