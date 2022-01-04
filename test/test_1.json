@@ -1,0 +1,41 @@
+{
+    "title" : "Test-File 1",
+    "uri" : "https://rein-zieh.github.io/otiExamples/test/test_1.json",
+    "image" : "https://rein-zieh.github.io/otiExamples/test/oti.png",
+    "alt" : "oti-logo",
+    "text" : "Dies ist ein Test-File, um möglichst viele Schritt-Arten zu testen.",
+    "meta": {
+        "author" : {
+            "name": "Frank Reins",
+            "organisation": "KBV",
+            "email": "fr@kb-esv.de"
+        },
+        "description" : "Test Fälle 1",
+        "keywords" : [
+            "Test"
+        ],
+        "license" : "CC BY-SA",
+        "supported-media" : [
+            "text",
+            "image"
+        ]
+    },
+    "preferences" : {
+        "color" : "#c00000",
+        "schema": "light",
+        "logo": "https://rein-zieh.github.io/otiExamples/test/logo.png",
+        "media": [
+            "image", 
+            "audio"
+        ]
+    },
+    "steps": [
+        {
+            "type" : "step",
+            "id" : "stepa",
+            "title" : "Schritt 1",
+            "text" : "Dies ist der erste Testschritt: Ein normaler Schritt",
+            "image" : "https://rein-zieh.github.io/otiExamples/steps/a.png"
+        }
+    ]
+}
