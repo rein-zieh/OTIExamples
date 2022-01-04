@@ -9,6 +9,11 @@ http://test.mitas-app.de/
 
 ### Test-Files
 
+[oti-File](https://rein-zieh.github.io/otiExamples/test/test_1.json), 
+[im Player](https://test.mitas-app.de/?oti=https://rein-zieh.github.io/otiExamples/test/test_1.json)
+
+**Einzeltests**
+
 - If-The-Else: 
 [oti-File](https://rein-zieh.github.io/otiExamples/if-then-else/index.json), 
 [im Player](https://test.mitas-app.de/?oti=https://rein-zieh.github.io/otiExamples/if-then-else/index.json)
