@@ -29,3 +29,7 @@ http://test.mitas-app.de/
 - Einfache Schritte: 
 [oti-File](https://rein-zieh.github.io/otiExamples/steps/index.json), 
 [im Player](https://test.mitas-app.de/?oti=https://rein-zieh.github.io/otiExamples/steps/index.json)
+
+- Schwergängigkeit von Türen
+[oti-File](https://rein-zieh.github.io/otiExamples/abnrw/tuer.json), 
+[im Player](https://test.mitas-app.de/?oti=https://rein-zieh.github.io/otiExamples/abnrw/tuer.json)
