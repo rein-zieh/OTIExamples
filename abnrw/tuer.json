@@ -72,7 +72,7 @@
                     "id" : "leicht",
                     "title" : "Tür ist leichtgängig",
                     "text" : "Kreuzen Sie „die Tür ist leichtgängig“ an!",
-                    "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer4a.png"
+                    "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer6a.png"
                 }
             ],
             "else" : [
@@ -81,7 +81,7 @@
                     "id" : "schwer",
                     "title" : "Tür ist schwergängig",
                     "text" : "Kreuzen Sie „die Tür ist leichtgängig“ an!",
-                    "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer4b.png"
+                    "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer6b.png"
                 }
             ]
         }
