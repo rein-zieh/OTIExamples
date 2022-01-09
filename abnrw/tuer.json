@@ -56,21 +56,14 @@
             "id" : "tuer4",
             "title" : "Tür öffnen",
             "text" : "Ziehen Sie nun mit der Kofferwage vorsichtig die Tür auf. Achten Sie dabei darauf, dass der Gurt immer stramm gespannt ist.",
-            "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer3.jpg"
-        },
-        {
-            "type" : "step",
-            "id" : "tuer5",
-            "title" : "Messergebnis ablesen",
-            "text" : "Lesen Sie nun das Messergebnis ab.",
-            "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer3.jpg"
+            "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer4.jpg"
         },
         {
             "type" : "if-then-else",
             "id" : "entscheiden",
             "title" : "Leicht oder Schwer?",
             "text" : "Lesen Sie nun das Messergebnis ab. Zeigt die Waage weniger als 4,5 Newtonmeter an?",
-            "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer4.jpg",
+            "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer5.jpg",
             "then_text": "ja (< 4,5 N m)",
             "else_text": "nein (>= 4,5 N m)",
             "then" : [
