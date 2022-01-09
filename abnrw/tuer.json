@@ -70,7 +70,7 @@
             "id" : "entscheiden",
             "title" : "Leicht oder Schwer?",
             "text" : "Lesen Sie nun das Messergebnis ab. Zeigt die Waage weniger als 4,5 Newtonmeter an?",
-            "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer4.jpg"
+            "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer4.jpg",
             "then_text": "ja (< 4,5 N m)",
             "else_text": "nein (>= 4,5 N m)",
             "then" : [
@@ -78,7 +78,7 @@
                     "type" : "step",
                     "id" : "leicht",
                     "title" : "Tür ist leichtgängig",
-                    "text" : "Kreuzen Sie „die Tür ist leichtgängig“ an!"
+                    "text" : "Kreuzen Sie „die Tür ist leichtgängig“ an!",
                     "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer4a.png"
                 }
             ],
@@ -87,12 +87,10 @@
                     "type" : "step",
                     "id" : "schwer",
                     "title" : "Tür ist schwergängig",
-                    "text" : "Kreuzen Sie „die Tür ist leichtgängig“ an!"
+                    "text" : "Kreuzen Sie „die Tür ist leichtgängig“ an!",
                     "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer4b.png"
                 }
             ]
         },
-    
-    
     ]
 }
