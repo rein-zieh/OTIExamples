@@ -80,7 +80,7 @@
                     "type" : "step",
                     "id" : "schwer",
                     "title" : "Tür ist schwergängig",
-                    "text" : "Kreuzen Sie „die Tür ist leichtgängig“ an!",
+                    "text" : "Kreuzen Sie „die Tür ist schwergängig“ an!",
                     "image" : "https://rein-zieh.github.io/otiExamples/abnrw/tuer6b.png"
                 }
             ]
