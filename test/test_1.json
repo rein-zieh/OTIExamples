@@ -34,7 +34,7 @@
             "type" : "step",
             "id" : "stepa",
             "title" : "Schritt 1",
-            "text" : "Dies ist der erste Testschritt: Ein normaler Schritt mit einem ziemlich langen Text, den eigentlich kein Mensch auf diesem oder jedem anderen Planeten, sofern er bei klaren Verstand ist, lesen oder, falls er schlecht lesen kann bzw. einfach keine Lust auf Lesen hat, vorgelesen bekommen möchte.",
+            "text" : "Dies ist der erste Testschritt: Ein normaler Schritt mit einem ziemlich langen Text, den eigentlich kein Mensch auf diesem oder jedem anderen Planeten, sofern er bei klarem Verstand ist, lesen oder, falls er schlecht lesen kann bzw. einfach keine Lust auf Lesen hat, vorgelesen bekommen möchte.",
             "image" : "https://rein-zieh.github.io/otiExamples/test/a.png"
         },
         {
