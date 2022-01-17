@@ -84,7 +84,7 @@
             "id" : "stepe",
             "title" : "Material vorhanden?",
             "text" : "Ist den Material vollständig",
-            "checklist" : [
+            "items" : [
                 {
                     "text" : "Lötkolben",
                     "image" : "https://rein-zieh.github.io/otiExamples/test/e1.png"
