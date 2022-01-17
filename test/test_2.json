@@ -1,0 +1,107 @@
+{
+    "title" : "Test-File 1",
+    "uri" : "https://rein-zieh.github.io/otiExamples/test/test_1.json",
+    "image" : "https://rein-zieh.github.io/otiExamples/test/oti.png",
+    "alt" : "oti-logo",
+    "text" : "Dies ist ein Test-File, um möglichst viele Schritt-Arten zu testen.",
+    "meta": {
+        "author" : {
+            "name": "Frank Reins",
+            "organisation": "KBV",
+            "email": "fr@kb-esv.de"
+        },
+        "description" : "Testfall-Set 1",
+        "keywords" : [
+            "Test"
+        ],
+        "license" : "CC BY-SA",
+        "supported-media" : [
+            "text",
+            "image"
+        ]
+    },
+    "preferences" : {
+        "color" : "#c00000",
+        "schema": "light",
+        "logo": "https://rein-zieh.github.io/otiExamples/test/logo.png",
+        "media": [
+            "image", 
+            "audio"
+        ]
+    },
+    "steps": [
+        {
+            "type" : "step",
+            "id" : "stepa",
+            "title" : "Schritt 1",
+            "text" : "Dies ist der erste Testschritt: Ein normaler Schritt mit einem ziemlich langen Text, den eigentlich kein Mensch auf diesem oder jedem anderen Planeten, sofern er bei klarem Verstand ist, lesen oder, falls er schlecht lesen kann bzw. einfach keine Lust auf Lesen hat, vorgelesen bekommen möchte.",
+            "image" : "https://rein-zieh.github.io/otiExamples/test/a.png"
+        },
+        {
+            "type" : "if-then-else",
+            "id" : "stebb",
+            "title" : "If-Then-Else",
+            "image" : "https://rein-zieh.github.io/otiExamples/test/b.png",
+            "text" : "Mit einer „Animation“ oder lieber mit einem „Timer-Schritt“ fortfahren?",
+            "then_text": "ja, mit der Animation",
+            "else_text": "nein, mit dem Timer",
+            "then" : [
+                {
+                    "type" : "step-animation",
+                    "id" : "stepb1",
+                    "title" : "Animation",
+                    "text" : "Dies sind 3 Bilder.",
+                    "interval" : 750,
+                    "animation" : [
+                        "https://rein-zieh.github.io/otiExamples/test/b1.png",
+                        "https://rein-zieh.github.io/otiExamples/test/b2.png",
+                        "https://rein-zieh.github.io/otiExamples/test/b3.png"
+                    ]
+                }
+            ],
+            "else" : [
+                {
+                    "type" : "if-then-else",
+                    "id" : "stebc",
+                    "title" : "nochmal If-Then-Else",
+                    "image" : "https://rein-zieh.github.io/otiExamples/test/c.png",
+                    "text" : "Echt mit Timer?",
+                    "then" : [
+                        {
+                            "type" : "step-timer",
+                            "id" : "timer",
+                            "countdown" : "0h1m12s",
+                            "title" : "Schritt mit Timer",
+                            "image" : "https://rein-zieh.github.io/otiExamples/test/d.png",
+                            "text" : "z.B. bei einer Back-Anleitung"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type" : "checklist",
+            "id" : "stepe",
+            "title" : "Material vorhanden?",
+            "text" : "Ist den Material vollständig",
+            "checklist" : [
+                {
+                    "text" : "Lötkolben",
+                    "image" : "https://rein-zieh.github.io/otiExamples/test/e1.png",
+                },
+                {
+                    "text" : "Lötzinn",
+                    "image" : "https://rein-zieh.github.io/otiExamples/test/e2.png",
+                },
+                {
+                    "text" : "Dritte Hand",
+                    "image" : "https://rein-zieh.github.io/otiExamples/test/e3.png",
+                },
+                {
+                    "text" : "Entlötlitze",
+                    "image" : "https://rein-zieh.github.io/otiExamples/test/e4.png",
+                }
+            ]
+        }
+    ]
+}
