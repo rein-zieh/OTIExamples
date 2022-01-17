@@ -78,30 +78,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "type" : "checklist",
-            "id" : "stepe",
-            "title" : "Material vorhanden?",
-            "text" : "Ist den Material vollständig",
-            "checklist" : [
-                {
-                    "text" : "Lötkolben",
-                    "image" : "https://rein-zieh.github.io/otiExamples/test/e1.png",
-                },
-                {
-                    "text" : "Lötzinn",
-                    "image" : "https://rein-zieh.github.io/otiExamples/test/e2.png",
-                },
-                {
-                    "text" : "Dritte Hand",
-                    "image" : "https://rein-zieh.github.io/otiExamples/test/e3.png",
-                },
-                {
-                    "text" : "Entlötlitze",
-                    "image" : "https://rein-zieh.github.io/otiExamples/test/e4.png",
-                }
-            ]
         }
     ]
 }
