@@ -38,48 +38,6 @@
             "image" : "https://rein-zieh.github.io/otiExamples/test/a.png"
         },
         {
-            "type" : "if-then-else",
-            "id" : "stebb",
-            "title" : "If-Then-Else",
-            "image" : "https://rein-zieh.github.io/otiExamples/test/b.png",
-            "text" : "Mit einer „Animation“ oder lieber mit einem „Timer-Schritt“ fortfahren?",
-            "then_text": "ja, mit der Animation",
-            "else_text": "nein, mit dem Timer",
-            "then" : [
-                {
-                    "type" : "step-animation",
-                    "id" : "stepb1",
-                    "title" : "Animation",
-                    "text" : "Dies sind 3 Bilder.",
-                    "interval" : 750,
-                    "animation" : [
-                        "https://rein-zieh.github.io/otiExamples/test/b1.png",
-                        "https://rein-zieh.github.io/otiExamples/test/b2.png",
-                        "https://rein-zieh.github.io/otiExamples/test/b3.png"
-                    ]
-                }
-            ],
-            "else" : [
-                {
-                    "type" : "if-then-else",
-                    "id" : "stebc",
-                    "title" : "nochmal If-Then-Else",
-                    "image" : "https://rein-zieh.github.io/otiExamples/test/c.png",
-                    "text" : "Echt mit Timer?",
-                    "then" : [
-                        {
-                            "type" : "step-timer",
-                            "id" : "timer",
-                            "countdown" : "0h1m12s",
-                            "title" : "Schritt mit Timer",
-                            "image" : "https://rein-zieh.github.io/otiExamples/test/d.png",
-                            "text" : "z.B. bei einer Back-Anleitung"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "type" : "checklist",
             "id" : "stepe",
             "title" : "Material vorhanden?",
