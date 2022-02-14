@@ -41,7 +41,7 @@
             "type" : "checklist",
             "id" : "stepe",
             "title" : "Material vorhanden?",
-            "text" : "Ist den Material vollständig",
+            "text" : "Hast du alles, was du brauchst?",
             "checkitems" : [
                 {
                     "text" : "Lötkolben",
