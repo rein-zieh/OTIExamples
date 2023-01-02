@@ -3,7 +3,7 @@
 ## OTI-Player
 
 Eine einfacher Player für oti-Files:
-http://test.mitas-app.de/
+http://test.mitas-app.de/ .
 
 ## Beispiele
 
